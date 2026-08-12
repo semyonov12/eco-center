@@ -1,0 +1,661 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<title>Эко по ОМС</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- стили -->
+	<link rel="stylesheet" href="css/app.css">
+	<!-- фавикон -->
+	<link rel="shortcut icon" href="files/favicon.ico">
+	
+	
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+	<div class="header__container">
+		<a href="/" class="header__logo logo">
+			<img class="logo__image" src="img/logo.svg" alt="Логотип">
+			<div class="logo__content">
+				<div class="logo__name">Центр ЭКО</div>
+				<div class="logo__text">Сеть клиник</div>
+			</div>
+		</a>
+		<nav class="header__menu menu">
+			<button type="button" class="menu__close">
+				<svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+					<path d="M2.82843 4.76837e-06L25.4558 22.6274L22.6274 25.4558L0 2.82843L2.82843 4.76837e-06Z"
+						fill="#16456E" />
+					<path d="M25.4559 2.82843L2.82845 25.4558L2.31266e-05 22.6274L22.6274 0L25.4559 2.82843Z"
+						fill="#16456E" />
+				</svg>
+			</button>
+			<ul class="menu__list">
+				<li class="menu__item"><a href="#" class="menu__link">О клинике</a></li>
+				<li class="menu__item"><a href="#" class="menu__link">Услуги</a></li>
+				<li class="menu__item"><a href="#" class="menu__link">Врачи</a></li>
+				<li class="menu__item"><a href="#" class="menu__link">Пациентам</a></li>
+				<li class="menu__item"><a href="#" class="menu__link">Цены</a></li>
+				<li class="menu__item"><a href="#" class="menu__link">Контакты</a></li>
+			</ul>
+			<div class="menu__image">
+				<img src="img/menu-image.webp" alt="Микроскоп">
+			</div>
+		</nav>
+		<div class="header__content">
+			<div class="header__box">
+				<a href="tel:88612060041" class="header__tel">8 (861) 206-00-41</a>
+				<div class="header__text">круглосуточно</div>
+			</div>
+			<button data-popup="#application" type="button" class="header__button">Записаться на прием</button>
+		</div>
+		<button type="button" class="header__burger burger-menu">
+			<svg width="32" height="22" viewBox="0 0 32 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+				<rect width="32" height="4" fill="#16456E" />
+				<rect y="9" width="32" height="4" fill="#16456E" />
+				<rect y="18" width="32" height="4" fill="#16456E" />
+			</svg>
+		</button>
+	</div>
+</header>
+		<main>
+			<section class="hero">
+				<div class="hero__container">
+					<div class="hero__content">
+						<h1 class="hero__title">Эко по ОМС</h1>
+						<div class="hero__sub-title">в сети клиник «Центр ЭКО»</div>
+						<div class="hero__desc">Бесплатное лечение бесплодия с применением вспомогательных
+							репродуктивных технологий по полису ОМС</div>
+						<ul class="hero__list">
+							<li class="hero__item">
+								<div class="hero__icon">
+									<img src="img/hero-icon1.svg" alt="Иконка">
+								</div>
+								<div class="hero__text">Бесплатно по полису ОМС</div>
+							</li>
+							<li class="hero__item">
+								<div class="hero__icon">
+									<img src="img/hero-icon2.svg" alt="Иконка">
+								</div>
+								<div class="hero__text">В рамках базовой программы ОМС</div>
+							</li>
+							<li class="hero__item">
+								<div class="hero__icon">
+									<img src="img/hero-icon3.svg" alt="Иконка">
+								</div>
+								<div class="hero__text">Современные технологии и опыт врачей</div>
+							</li>
+						</ul>
+						<button data-popup="#application" type="button" class="hero__button">Записаться на
+							прием</button>
+					</div>
+					<div class="hero__media">
+						<div class="hero__image-1">
+							<img src="img/hero-image1.webp" alt="Мама с ребенком">
+						</div>
+						<div class="hero__image-2">
+							<img src="img/hero-image2.svg" alt="Иконка">
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="requirements">
+				<div class="requirements__container">
+					<div class="requirements__column">
+						<h2 class="requirements__title">ОМС предъявляет следующие требования к кандидатам:</h2>
+						<ul class="requirements__list">
+							<li class="requirements__item">Гражданство РФ;</li>
+							<li class="requirements__item">Наличие полиса ОМС;</li>
+							<li class="requirements__item">Медицинское заключение о факторе бесплодия (мужской либо
+								женский фактор);</li>
+							<li class="requirements__item">Наличие записей в медицинской карте о ранее проведенном
+								лечении, не принесшем результата;</li>
+							<li class="requirements__item">Нормальный (не сниженный) овариальный резерв (уровень АМГ не
+								менее 1,2 нг/мл, количество антральных фолликулов не менее 5 суммарно в обоих яичниках);
+							</li>
+							<li class="requirements__item">Отсутствие психических заболеваний, алко-
+								и наркозависимости.</li>
+						</ul>
+						<a href="#" class="requirements__link requirements__link--mobile">Подробнее о программе ЭКО</a>
+						<div class="requirements__image">
+							<img src="img/requirements-image.svg" alt="Иконка">
+						</div>
+					</div>
+					<div class="requirements__column">
+						<div class="requirements__top">
+							<div class="requirements__ok">
+								<img src="img/check.svg" alt="Иконка">
+							</div>
+							<h2 class="requirements__title requirements__title--center">В рамках ОМС в протокол ЭКО
+								включено всё основно
+								и необходимое:</h2>
+						</div>
+						<div class="requirements__body">
+							<div class="requirements__row">
+								<div class="requirements__value">1</div>
+								<div class="requirements__text">Стимуляция</div>
+								<div class="requirements__icon">
+									<img src="img/requirements-icon1.svg" alt="Иконка">
+								</div>
+							</div>
+							<div class="requirements__row">
+								<div class="requirements__value">2</div>
+								<div class="requirements__text">Пункция</div>
+								<div class="requirements__icon">
+									<img src="img/requirements-icon2.svg" alt="Иконка">
+								</div>
+							</div>
+							<div class="requirements__row">
+								<div class="requirements__value">3</div>
+								<div class="requirements__text">Оплодотворение</div>
+								<div class="requirements__icon">
+									<img src="img/requirements-icon3.svg" alt="Иконка">
+								</div>
+							</div>
+							<div class="requirements__row">
+								<div class="requirements__value">4</div>
+								<div class="requirements__text">Культивирование</div>
+								<div class="requirements__icon">
+									<img src="img/requirements-icon4.svg" alt="Иконка">
+								</div>
+							</div>
+							<div class="requirements__row">
+								<div class="requirements__value">5</div>
+								<div class="requirements__text">Перенос эмбриона</div>
+								<div class="requirements__icon">
+									<img src="img/requirements-icon5.svg" alt="Иконка">
+								</div>
+							</div>
+						</div>
+						<a href="#" class="requirements__link requirements__link--pc">Подробнее о программе ЭКО</a>
+					</div>
+				</div>
+			</section>
+			<section class="stock">
+				<div class="stock__container">
+					<div class="stock__heading">ВЫГОДНЫЕ УСЛОВИЯ</div>
+					<h2 class="stock__title">Акции и специальные предложения</h2>
+					<div class="stock__sub-title">Забота о вашем будущем — на особых условиях</div>
+					<div class="stock__body">
+						<article class="stock__article">
+							<div class="stock__top">
+								<div class="stock__icon">
+									<img src="img/stock-icon1.svg" alt="Иконка">
+								</div>
+								<div class="stock__content">
+									<h3 class="stock__caption">Бесплатная консультация репродуктолога</h3>
+									<div class="stock__desc stock__desc--pc">Медицинское заключение о факторе бесплодия
+										(мужской либо
+										женский фактор);</div>
+								</div>
+							</div>
+							<div class="stock__desc stock__desc--mobile">Медицинское заключение о факторе бесплодия
+								(мужской либо
+								женский фактор);</div>
+							<ul class="stock__list">
+								<li class="stock__item">Оценим вашу ситуацию и перспективы</li>
+								<li class="stock__item">Ответим на все вопросы</li>
+								<li class="stock__item">Подберём оптимальный маршрут</li>
+							</ul>
+							<button type="button" data-popup="#application" class="stock__link">Получить
+								консультацию</button>
+							<img class="stock__image" src="img/stock-image1.webp" alt="фон">
+						</article>
+						<article class="stock__article">
+							<div class="stock__top">
+								<div class="stock__icon">
+									<img src="img/stock-icon2.svg" alt="Иконка">
+								</div>
+								<div class="stock__content">
+									<h3 class="stock__headline">Скидка 20%</h3>
+									<h4 class="stock__subject">на первичное обследование</h4>
+								</div>
+							</div>
+							<div class="stock__row">
+								<div class="stock__text">Комплексная диагностика для успешного старта</div>
+								<div class="stock__arrow">
+									<img src="img/arrow.svg" alt="Стрелочка">
+								</div>
+							</div>
+							<img class="stock__image" src="img/stock-image2.webp" alt="Фон">
+						</article>
+						<article class="stock__article">
+							<div class="stock__top">
+								<div class="stock__icon">
+									<img src="img/stock-icon3.svg" alt="Иконка">
+								</div>
+								<div class="stock__content">
+									<h3 class="stock__headline">Протокол ЭКО по ОМС —</h3>
+									<h4 class="stock__subject">сопровождение бесплатно</h4>
+								</div>
+							</div>
+							<div class="stock__row">
+								<div class="stock__text">Поддержка на каждом этапе программы</div>
+								<div class="stock__arrow">
+									<img src="img/arrow.svg" alt="Стрелочка">
+								</div>
+							</div>
+							<img class="stock__image" src="img/stock-image3.webp" alt="Фон">
+						</article>
+					</div>
+					<div class="stock__label">*Акции не суммируются с другими предложениями клиники</div>
+				</div>
+			</section>
+			<section class="advantages">
+				<div class="advantages__container">
+					<h2 class="advantages__title">Почему выбирают “Центр ЭКО”</h2>
+					<div class="advantages__body">
+						<article class="advantages__item">
+							<div class="advantages__icon">
+								<img src="img/advantages-icon1.svg" alt="Иконка">
+							</div>
+							<h3 class="advantages__caption">Высокие показатели успешности программ ЭКО</h3>
+						</article>
+						<article class="advantages__item">
+							<div class="advantages__icon">
+								<img src="img/advantages-icon2.svg" alt="Иконка">
+							</div>
+							<h3 class="advantages__caption">Опытные репродуктологи и эмбриологи</h3>
+						</article>
+						<article class="advantages__item">
+							<div class="advantages__icon">
+								<img src="img/advantages-icon3.svg" alt="Иконка">
+							</div>
+							<h3 class="advantages__caption">Современная эмбриологическая лаборатория</h3>
+						</article>
+						<article class="advantages__item">
+							<div class="advantages__icon">
+								<img src="img/advantages-icon4.svg" alt="Иконка">
+							</div>
+							<h3 class="advantages__caption">Индивидуальный подход на каждом этапе</h3>
+						</article>
+						<article class="advantages__item">
+							<div class="advantages__icon">
+								<img src="img/advantages-icon5.svg" alt="Иконка">
+							</div>
+							<h3 class="advantages__caption">Удобное расположение клиник в вашем городе</h3>
+						</article>
+					</div>
+				</div>
+			</section>
+			<section class="effectiveness">
+				<div class="effectiveness__container">
+					<div class="effectiveness__block">
+						<div class="effectiveness__row">
+							<div class="effectiveness__content">
+								<h2 class="effectiveness__title">Высокая результативность ЭКО в нашей клинике</h2>
+								<div class="effectiveness__text effectiveness__text--pc">
+									<p>Благодаря современным методикам и индивидуальному подходу к каждой паре, мы
+										достигаем высоких результатов в лечении бесплодия.</p>
+									<p>Доверьте своё будущее профессионалам.</p>
+								</div>
+							</div>
+							<div class="effectiveness__column">
+								<div class="effectiveness__value">51,3</div>
+								<div class="effectiveness__label">клиническая результативность ЭКО*</div>
+							</div>
+						</div>
+						<div class="effectiveness__text effectiveness__text--mobile">
+							<p>Благодаря современным методикам и индивидуальному подходу к каждой паре, мы
+								достигаем высоких результатов в лечении бесплодия.</p>
+						</div>
+						<div class="effectiveness__desc">* Показатель клинической результативности на основании данных
+							клиники за 1 полугодие 2026г.</div>
+						<picture>
+							<source media="(max-width: 768px)" srcset="img/effectiveness-image-mobile.webp">
+							<img class="effectiveness__image" src="img/effectiveness-image.webp" alt="Фон">
+						</picture>
+					</div>
+				</div>
+			</section>
+			<section class="doctors">
+				<div class="doctors__container">
+					<div class="doctors__top">
+						<div class="doctors__content">
+							<h2 class="doctors__title">Наши врачи</h2>
+							<div class="doctors__sub-title">Опытные специалисты, которые помогут вам на пути к семейному
+								счастью</div>
+						</div>
+						<div class="doctors__picture doctors__picture--pc">
+							<img src="img/doctors-picture.webp" alt="Врач">
+						</div>
+						<a href="#" class="doctors__link doctors__link--pc">Смотреть всех специалистов</a>
+					</div>
+					<div class="doctors__body">
+						<div class="doctors__slider swiper">
+							<div class="doctors__wrapper swiper-wrapper">
+								<div class="doctors__slide swiper-slide">
+									<div class="doctors__image">
+										<img src="img/doctors-image1.webp" alt="Юскаева Светлана Леонидовна">
+									</div>
+									<div class="doctors__box">
+										<div class="doctors__name">Юскаева <br> Светлана Леонидовна</div>
+										<div class="doctors__text">Заведующий отделением ВРТ, врач-акушер-гинеколог.
+											Врач высшей квалификационной категории.</div>
+										<div class="doctors__row">
+											<div class="doctors__icon">
+												<img src="img/doctors-icon.svg" alt="Медаль">
+											</div>
+											<div class="doctors__block">
+												<div class="doctors__label">Опыт работы</div>
+												<div class="doctors__value"><span>24</span> года</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="doctors__slide swiper-slide">
+									<div class="doctors__image">
+										<img src="img/doctors-image2.webp" alt="Баклакова Алиса Антоновна">
+									</div>
+									<div class="doctors__box">
+										<div class="doctors__name">Баклакова <br> Алиса Антоновна</div>
+										<div class="doctors__text">Врач акушер-гинеколог, репродуктолог, к.м.н. Член
+											РАРЧ с 2020 года.</div>
+										<div class="doctors__row">
+											<div class="doctors__icon">
+												<img src="img/doctors-icon.svg" alt="Медаль">
+											</div>
+											<div class="doctors__block">
+												<div class="doctors__label">Опыт работы</div>
+												<div class="doctors__value"><span>22</span> года</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="doctors__slide swiper-slide">
+									<div class="doctors__image">
+										<img src="img/doctors-image3.webp" alt="Соловьева Алена Владиславовна">
+									</div>
+									<div class="doctors__box">
+										<div class="doctors__name">Соловьева <br> Алена Владиславовна</div>
+										<div class="doctors__text">Врач акушер-гинеколог, репродуктолог</div>
+										<div class="doctors__row">
+											<div class="doctors__icon">
+												<img src="img/doctors-icon.svg" alt="Медаль">
+											</div>
+											<div class="doctors__block">
+												<div class="doctors__label">Опыт работы</div>
+												<div class="doctors__value"><span>17</span> лет</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="doctors__slide swiper-slide">
+									<div class="doctors__image">
+										<img src="img/doctors-image4.webp" alt="Пасечная Ксения Владимировна">
+									</div>
+									<div class="doctors__box">
+										<div class="doctors__name">Пасечная <br> Ксения Владимировна</div>
+										<div class="doctors__text">Эмбриолог</div>
+										<div class="doctors__row">
+											<div class="doctors__icon">
+												<img src="img/doctors-icon.svg" alt="Медаль">
+											</div>
+											<div class="doctors__block">
+												<div class="doctors__label">Опыт работы</div>
+												<div class="doctors__value"><span>11</span> лет</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="doctors__slide swiper-slide">
+									<div class="doctors__image">
+										<img src="img/doctors-image1.webp" alt="Юскаева Светлана Леонидовна">
+									</div>
+									<div class="doctors__box">
+										<div class="doctors__name">Юскаева <br> Светлана Леонидовна</div>
+										<div class="doctors__text">Заведующий отделением ВРТ, врач-акушер-гинеколог.
+											Врач высшей квалификационной категории.</div>
+										<div class="doctors__row">
+											<div class="doctors__icon">
+												<img src="img/doctors-icon.svg" alt="Медаль">
+											</div>
+											<div class="doctors__block">
+												<div class="doctors__label">Опыт работы</div>
+												<div class="doctors__value"><span>24</span> года</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="swiper-pagination"></div>
+						</div>
+						<button type="button" class="swiper-button-prev doctors__prev">
+							<svg width="15" height="25" viewBox="0 0 15 25" fill="none"
+								xmlns="http://www.w3.org/2000/svg">
+								<path d="M15 2.2125L12.7443 0L0 12.5L12.7443 25L15 22.7875L4.51147 12.5L15 2.2125Z"
+									fill="#72B5FF" />
+							</svg>
+						</button>
+						<button type="button" class="swiper-button-next doctors__next">
+							<svg width="15" height="25" viewBox="0 0 15 25" fill="none"
+								xmlns="http://www.w3.org/2000/svg">
+								<path d="M0 2.2125L2.25574 0L15 12.5L2.25574 25L0 22.7875L10.4885 12.5L0 2.2125Z"
+									fill="#72B5FF" />
+							</svg>
+						</button>
+					</div>
+					<div class="doctors__block-mobile">
+						<div class="doctors__picture doctors__picture">
+							<img src="img/doctors-picture.webp" alt="Врач">
+						</div>
+						<a href="#" class="doctors__link doctors__link">Смотреть всех специалистов</a>
+					</div>
+				</div>
+			</section>
+			<section class="steps">
+				<div class="steps__container">
+					<h2 class="steps__title">Как получить направление на ЭКО по ОМС?</h2>
+					<div class="steps__body">
+						<article class="steps__item">
+							<div class="steps__icon">
+								<img src="img/steps-icon1.svg" alt="Иконка">
+							</div>
+							<h3 class="steps__caption">Обратитесь в женскую консультацию по месту жительства</h3>
+							<div class="steps__text">Врач оценит показания и проведет необходимое обследование</div>
+							<div class="steps__arrow">
+								<img src="img/arrow-block.svg" alt="Стрелочка">
+							</div>
+						</article>
+						<article class="steps__item">
+							<div class="steps__icon">
+								<img src="img/steps-icon2.svg" alt="Иконка">
+							</div>
+							<h3 class="steps__caption">Получите направлени на ЭКО по ОМС</h3>
+							<div class="steps__text">Комиссия поликлиники выдаёт направление установленного образца
+							</div>
+							<div class="steps__arrow"><img src="img/arrow-block.svg" alt="Стрелочка"></div>
+						</article>
+						<article class="steps__item">
+							<div class="steps__icon">
+								<img src="img/steps-icon3.svg" alt="Иконка">
+							</div>
+							<h3 class="steps__caption">Запишитесь в клинику «Центр ЭКО»</h3>
+							<div class="steps__text">Мы поможем выбрать удобное время для приёма</div>
+							<div class="steps__arrow"><img src="img/arrow-block.svg" alt="Стрелочка"></div>
+						</article>
+						<article class="steps__item">
+							<div class="steps__icon">
+								<img src="img/steps-icon4.svg" alt="Иконка">
+							</div>
+							<h3 class="steps__caption">Начните <br> лечение</h3>
+							<div class="steps__text">Пройдите обследование и начните программу ЭКО</div>
+						</article>
+					</div>
+				</div>
+			</section>
+			<section class="consultation">
+				<div class="consultation__body">
+					<div class="consultation__container">
+						<div class="consultation__row">
+							<div class="consultation__block">
+								<div class="consultation__icon">
+									<img src="img/consultation-icon.svg" alt="Наушники с микрофоном">
+								</div>
+								<div class="consultation__content">
+									<h2 class="consultation__title">Остались вопросы?</h2>
+									<div class="consultation__text">Наши специалисты с радостью проконсультируют вас
+									</div>
+								</div>
+							</div>
+							<div class="consultation__image">
+								<img src="img/consultation-image.svg" alt="Лекарства">
+							</div>
+							<div class="consultation__column">
+								<div class="consultation__box">
+									<a href="#" class="consultation__tel">8 (861) 206-00-41</a>
+									<div class="consultation__label">круглосуточно</div>
+								</div>
+								<button data-popup="#application" type="button" class="consultation__button">Заказать
+									звонок</button>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="consultation__desc">Имеются противопоказания. Необходима консультация специалиста</div>
+			</section>
+		</main>
+		<footer class="footer">
+	<div class="footer__container">
+		<div class="footer__content">
+			<a href="/" class="footer__logo logo">
+				<img class="logo__image" src="img/logo.svg" alt="Логотип">
+				<div class="logo__content">
+					<div class="logo__name">Центр ЭКО</div>
+					<div class="logo__text">Сеть клиник</div>
+				</div>
+			</a>
+			<div class="footer__image">
+				<img src="img/footer-image.webp" alt="Микроскоп">
+			</div>
+			<ul class="footer__list">
+				<li class="footer__item-social"><a href="#" class="footer__link-social"><img src="img/vk.svg"
+							alt="vk"></a></li>
+				<li class="footer__item-social"><a href="#" class="footer__link-social"><img src="img/max.svg"
+							alt="max"></a></li>
+			</ul>
+			<div class="footer__caption footer__caption--mobile">ООО «Кубанский медицинский центр»</div>
+		</div>
+		<div class="footer__column">
+			<h2 class="footer__title footer__title--mobile">Контакты</h2>
+			<div class="footer__row">
+				<nav class="footer__menu menu-footer">
+					<ul class="menu-footer__list">
+						<li class="menu-footer__item"><a href="#" class="menu-footer__link">О клинике</a></li>
+						<li class="menu-footer__item"><a href="#" class="menu-footer__link">Услуги</a></li>
+						<li class="menu-footer__item"><a href="#" class="menu-footer__link">Врачи</a></li>
+						<li class="menu-footer__item"><a href="#" class="menu-footer__link">Пациентам</a></li>
+						<li class="menu-footer__item"><a href="#" class="menu-footer__link">Цены</a></li>
+						<li class="menu-footer__item"><a href="#" class="menu-footer__link">Контакты</a></li>
+					</ul>
+				</nav>
+				<div class="footer__block">
+					<h2 class="footer__title footer__title--pc">Контакты</h2>
+					<div class="footer__wrap">
+						<div class="footer__headline">📍 Адрес:</div>
+						<div class="footer__text">
+							350072, г. Краснодар, <br>
+							ул. Армавирская, д. 60
+						</div>
+						<div class="footer__lead">Вход в клинику со стороны улицы Коллективная</div>
+						<div class="footer__body footer__body--mobile">
+				<div class="footer__item">
+					<div class="footer__headline">✉ E-mail:</div>
+					<a href="mailto:centreko@kubmedcenter.ru" class="footer__mail">centreko@kubmedcenter.ru</a>
+				</div>
+				<div class="footer__item">
+					<div class="footer__headline">🕘 Режим работы:</div>
+					<div class="footer__text">
+						Пн–Пт: 8:00–20:00 <br>
+						Сб–Вс: 9:00–17:00
+					</div>
+				</div>
+			</div>
+					</div>
+				</div>
+			</div>
+			<div class="footer__bottom">
+				<div class="footer__caption footer__caption--pc">ООО «Кубанский медицинский центр»</div>
+				<div class="footer__desc footer__desc--pc">
+					ОГРН 1022301821387 <br>
+					ИНН / КПП 2311060020 / 231101001 <br>
+					Управляющий — индивидуальный предприниматель: <br>
+					Лебедев Павел Сергеевич; Максимова Татьяна Андреевна
+				</div>
+			</div>
+		</div>
+		<div class="footer__holder">
+			<a href="tel:88612060041" class="footer__tel">8 (861) 206-00-41</a>
+			<div class="footer__desc footer__desc--mobile">
+					ОГРН 1022301821387 <br>
+					ИНН / КПП 2311060020 / 231101001
+				</div>
+			<div class="footer__body footer__body--pc">
+				<div class="footer__item">
+					<div class="footer__headline">✉ E-mail:</div>
+					<a href="mailto:centreko@kubmedcenter.ru" class="footer__mail">centreko@kubmedcenter.ru</a>
+				</div>
+				<div class="footer__item">
+					<div class="footer__headline">🕘 Режим работы:</div>
+					<div class="footer__text">
+						Пн–Пт: 8:00–20:00 <br>
+						Сб–Вс: 9:00–17:00
+					</div>
+				</div>
+			</div>
+			<div class="footer__wrapper">
+				<a href="#" class="footer__link">Положение об обработке персональных данных</a>
+				<a href="#" class="footer__link">Согласие на обработку персональных данных</a>
+			</div>
+		</div>
+	</div>
+</footer>
+	</div>
+
+	<div id="application" aria-hidden="true" class="popup">
+	<div class="popup__wrapper">
+		<div class="popup__content">
+			<button type="button" data-close class="popup__close">
+				<svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+					<path d="M2.82843 4.76837e-06L25.4558 22.6274L22.6274 25.4558L0 2.82843L2.82843 4.76837e-06Z"
+						fill="#16456E" />
+					<path d="M25.4559 2.82843L2.82845 25.4558L2.31266e-05 22.6274L22.6274 0L25.4559 2.82843Z"
+						fill="#16456E" />
+				</svg>
+			</button>
+			<h2 class="popup__title">
+				<span>Оставьте контакты</span>
+				<span>Записаться на приём</span>
+			</h2>
+			<form action="#" class="popup__form">
+				<div class="popup__column">
+					<div class="popup__text">и мы свяжемся с вами в ближайшее время</div>
+					<div class="checkbox">
+						<input id="c_1" class="checkbox__input" type="checkbox" value="1">
+						<label for="c_1" class="checkbox__label"><span class="checkbox__text">Даю своё согласие на <a href="#">обработку персональных данных</a></span></label>
+					</div>
+					<button type="submit" class="popup__submit">Отправить</button>
+				</div>
+				<div class="popup__image">
+					<img src="img/popup-image.svg" alt="Папка с формой">
+				</div>
+				<div class="popup__items">
+					<div class="popup__item">
+						<input type="text" class="popup__input" placeholder="Имя">
+					</div>
+					<div class="popup__item">
+						<input type="tel" class="popup__input" placeholder="Телефон">
+					</div>
+				</div>
+			</form>
+		</div>
+	</div>
+</div>
+
+	<script defer src="js/app.js"></script>
+</body>
+
+</html>
