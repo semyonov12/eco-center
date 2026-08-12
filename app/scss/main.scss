@@ -1,0 +1,46 @@
+@use "sass:math";
+
+@import "fonts/fonts";
+
+
+// Шрифт по умолчанию ==============================================================================================================================================================================================================================================================================
+$font-family: "Geometria", sans-serif;
+$second-family: "PTSans", sans-serif;
+$fontSize: 16px; // где 16(px) - размер шрифта по умолчанию из макета
+$fontWeight: 400;
+
+// Основные цвета
+$mainColor: #555; // Цвет шрифта по умолчанию
+$mainBg: #f5f3f6; // Цвет фона по умолчанию
+
+$minWidth: 320;
+$maxWidth: 1440;
+$maxWidthContainer: 1083;
+$containerPadding: 30;
+
+// Ширина срабатывания первого брейкпоинта
+$containerWidth: $maxWidthContainer + $containerPadding;
+
+$pc: $containerWidth + px; // ПК, ноутбуки, некоторые планшеты в горизонтальном положении
+$tablet: 991.98px; // Планшеты, некоторые телефоны в горизонтальном положении
+$mobile: 767.98px; // Телефоны L
+$mobileSmall: 479.98px; // Телефоны S
+
+[class*="__container"] {
+    margin: 0 auto;
+    max-width: $containerWidth + px;
+    padding: 0 math.div($containerPadding, 2) + px;
+    }
+
+    // Базовые
+    @import "base/null";
+    @import "base/swiper";
+
+    // Основные
+    @import "header";
+    @import "page";
+    @import "footer";
+
+    //Библиотеки
+    @import "libs/popup";
+    @import "forms/checkbox";
